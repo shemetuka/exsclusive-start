@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/exclusive-start/",
+    "build": "vite build --base=/exsclusive-start/",
     "preview": "vite preview"
   },
   "devDependencies": {
