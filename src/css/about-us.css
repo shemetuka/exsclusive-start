@@ -1,0 +1,47 @@
+.about-us-container {
+}
+
+
+.about-us {
+}
+
+.first-item {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 1.0;
+letter-spacing: -0.02em;
+color: #1b414b;
+}
+.second-item {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 1.07;
+letter-spacing: -0.02em;
+color: #040306;
+opacity: 0.4;
+}
+
+.about-title {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #1b414b;
+}
+
+.about-list {
+}
+
+.about-image {
+}
+
+@media screen and (min-width:375px) {
+    .container {
+    }
+
+    .about-us {
+    }
+}
