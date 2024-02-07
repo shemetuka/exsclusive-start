@@ -37,6 +37,8 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-text {
   max-width: 335px;
