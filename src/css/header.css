@@ -19,3 +19,27 @@
 .nav-link:focus {
   color: #747bff;
 }
+/* desctop 1280 */
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    max-width: 1080px;
+    left: 100px;
+    right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header-logo {
+    margin-right: 296px;
+  }
+}
+/* desctop 1440 */
+
+@media screen and (min-width: 1440px) {
+  .header-logo {
+    margin-right: 375px;
+  }
+  .header-container {
+    max-width: 1240px;
+  }
+}
