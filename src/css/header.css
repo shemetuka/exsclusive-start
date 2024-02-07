@@ -1,21 +1,125 @@
-.header {
-  padding: 20px 0;
-}
+/* mobile header */
 
-.nav-list {
+.header-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 99999999999;
+  max-width: 335px;
+  height: 42px;
+  padding: 12px 20px 13px 20px;
+  border-radius: 8px;
+  border: 1px solid #fbfbfb;
+  background-color: #fbfbfb;
+  margin: 0 auto;
 }
-
-.nav-link {
+.header-logo {
+  font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+.nav-list,
+.social-media-list {
+  display: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.burger-btn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  padding: 0;
+  right: 20px;
+  line-height: 0;
+}
+.icon-burger {
+  stroke: #1b414b;
+}
+
+@media screen and (max-width: 767px) {
+  .icon-burger {
+    stroke: #1b414b;
+  }
+}
+
+/*  tablet */
+@media screen and (min-width: 768px) {
+  .header-container {
+    max-width: 704px;
+    height: 48px;
+    top: 32px;
+    left: 32px;
+    right: 32px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 4px;
+  }
+  .list {
+  }
+  .nav-list-item {
+  }
+  .nav-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(27, 65, 75, 0.5);
+    font-size: 9px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    transition: background-color 250ms linear;
+    padding: 4px 0;
+  }
+
+  .header-logo {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+
+  .social-media-list {
+    display: flex;
+    gap: 8px;
+  }
+
+  .social-media-item {
+    width: 24px;
+    height: 24px;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .social-media-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    fill: #1b414b;
+    transition: fill 250ms linear;
+  }
+  .social-media-icon-list:hover,
+  .social-media-icon-list:focus {
+    fill: #062730;
+  }
 }
