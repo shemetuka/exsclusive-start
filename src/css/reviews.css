@@ -17,8 +17,8 @@
 
 .reviews-item {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
@@ -42,6 +42,12 @@
 
 }
 
+.foto-list {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
 .victoria-card,
 .ihor-card {
     display: none;
@@ -51,6 +57,7 @@
     border-radius: 72px;
     width: 56px;
     height: 56px;
+    
 }
 
 .name-client {
@@ -92,7 +99,11 @@
     }
 
     .reviews-item {
+        font-size: 14px;
+        line-height: 1.29;
         margin-bottom: 75px;
+        margin-left: 66px;
+        margin-right: 66px;
     }
 
     .victoria-card {
@@ -106,6 +117,7 @@
         justify-content: center;
         text-align: center;
     }
+
 
 }
 
@@ -134,6 +146,7 @@
     .review-card-list {
         flex-wrap: wrap;
         gap: 26px;
+        max-width: 100%;
     }
 
     .review-card-item {
@@ -142,12 +155,10 @@
         width: 376px;
         height: 282px;
         background: #fbfbfb;
+        flex-basis: calc((100% - 52px)/3);
 
     }
 
-    .reviews-item {
-        max-width: 854px;
-    }
 
     .reviews-team {
         display: flex;
@@ -157,6 +168,13 @@
         padding-right: 163px;
         padding-left: 163px;
     }
+
+    .reviews-item {
+        margin-bottom: 75px;
+        margin-left: 141px;
+        margin-right: 141px;
+    }
+
 
 }
 
