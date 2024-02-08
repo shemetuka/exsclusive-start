@@ -302,24 +302,68 @@
       <section class="advantages" id="advantages">
   <div class="conainer">
     <h2 class="advantages-title">Advantages</h2>
-    <ol class="advantages-list">
-      <li class="number">01</li>
-      <li class="advantages-item">
-        Swimming and water sports: try your hand at water skiing
-      </li>
-      <li class="number">02</li>
-      <li class="advantages-item">Fishing: try to catch your own dinner</li>
-      <li class="number">03</li>
-      <li class="advantages-item">
-        Sightseeing tours: take a shore or island tour, enjoy the views and
-        sunsets from the water
-      </li>
-      <li class="number">04</li>
-      <li class="advantages-item">
-        Rest and relaxation: read a book or listen to music while enjoying the
-        outdoor atmosphere.
-      </li>
-    </ol>
+    <div class="list-block">
+      <ol class="advantages-list">
+        <li class="number">01</li>
+        <li class="advantages-item">
+          Swimming and water sports: try your hand at water skiing
+        </li>
+        <li class="number">02</li>
+        <li class="advantages-item">Fishing: try to catch your own dinner</li>
+        <li class="number">03</li>
+        <li class="advantages-item">
+          Sightseeing tours: take a shore or island tour, enjoy the views and
+          sunsets from the water
+        </li>
+        <li class="number">04</li>
+        <li class="advantages-item">
+          Rest and relaxation: read a book or listen to music while enjoying the
+          outdoor atmosphere.
+        </li>
+      </ol>
+    </div>
+    <div class="list-img">
+      <picture>
+        <!--? Mobile -->
+        <source
+          media="(max-width: 768px)"
+          srcset="
+            ../img/advantages/mobil/adv-1x.jpg 1x,
+            ../img/advantages/mobil/adv-2x.jpg 2x
+          "
+        />
+        <!--? Tablet -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/advantages/tablet/adv-1x.jpg 1x,
+            ../img/advantages/tablet/adv-2x.jpg 2x
+          "
+        />
+        <!--? Desktop 1280 -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/advantages/desc-1280/adv-1x.jpg 1x,
+            ../img/advantages/desc-1280/adv-2x.jpg 2x
+          "
+        />
+        <!--? Desktop 1440 -->
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ../img/advantages/desc-1440/adv-1x.jpg 1x,
+            ../img/advantages/desc-1440/adv-2x.jpg 2x
+          "
+        />
+        <img
+          class="advantages-img"
+          src="../img/advantages/mobil/adv-1x.jpg"
+          alt="Dining area on the yacht"
+          loading="lazy"
+        />
+      </picture>
+    </div>
   </div>
 </section>
 
