@@ -9,7 +9,7 @@
       rgba(17, 19, 31, 0.31) 84.12%,
       rgba(17, 19, 31, 0) 99.94%
     ),
-    url(/img/hero/hero-mobile/hero-1x.jpg);
+    url(/img/hero/hero-mobile/hero-mob-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -24,7 +24,7 @@
         rgba(17, 19, 31, 0.31),
         rgba(17, 19, 31, 0)
       ),
-      url(/img/hero/hero-mobile/hero-2x.jpg),
+      url(/img/hero/hero-mobile/hero-mob-2x.jpg),
       lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
   }
 }
@@ -36,6 +36,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  max-width: 335px;
   margin-bottom: 24px;
   margin-right: auto;
   margin-left: auto;
@@ -108,7 +109,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/hero/hero-tablet/hero-1x.jpg);
+      url(/img/hero/hero-tablet/hero-tab-1x.jpg);
   }
 }
 
@@ -122,7 +123,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/hero/hero-tablet/hero-2x.jpg);
+      url(/img/hero/hero-tablet/hero-tab-2x.jpg);
   }
 }
 
@@ -138,7 +139,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/hero/d-1280/hero-image-1x.jpg);
+      url(/img/hero/d-1280/hero-des-1x.jpg);
   }
 
   .hero-title {
@@ -157,7 +158,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/hero/d-1280/hero-image-2x.jpg);
+      url(/img/hero/d-1280/hero-des-2x.jpg);
   }
 }
 
@@ -171,7 +172,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/hero/d-1440/hero-1x.jpg);
+      url(/img/hero/d-1440/hero-wide-1x.jpg);
   }
 }
 
@@ -185,6 +186,6 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url(/img/hero/d-1440/hero-2x.jpg);
+      url(/img/hero/d-1440/hero-wide-2x.jpg);
   }
 }
