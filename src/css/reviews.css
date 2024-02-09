@@ -161,8 +161,8 @@
 
         display: flex;
         /* flex-wrap: wrap; */
-        gap: 32px;
-        width: 100%;
+        /* gap: 32px; */
+        justify-content: space-between;
         
         
     }
@@ -178,6 +178,7 @@
     }
 
     .review-card {
+        
         
     }
 
