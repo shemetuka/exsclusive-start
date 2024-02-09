@@ -1,4 +1,5 @@
 
+
 .reviews {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -27,25 +28,28 @@
 
 }
 
+
 .review-card-list {
     display: flex;
     justify-content: center;
     text-align: center;
+    
+    
+    
 }
 
 .review-card-item {
     border-radius: 24px;
     padding: 32px 8px;
-    width: 335px;
-    height: 282px;
     background: #fbfbfb;
+    max-width: 335px;
 
 }
 
 .foto-list {
     display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .victoria-card,
@@ -70,6 +74,12 @@
     margin-top: 24px;
     padding-bottom: 8px;
 }
+/* .reviews-team {
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+} */
 
 .review-text {
     font-weight: 400;
@@ -113,12 +123,14 @@
     .review-card-list {
         display: flex;
         flex-wrap: nowrap;
-        gap: 26px;
+        gap: 32px;
         justify-content: center;
         text-align: center;
     }
 
-
+    .review-card-item {
+        flex-basis: calc((100% - 32px)/2);
+    }
 }
 
 @media screen and (min-width:1280px) {
@@ -144,19 +156,30 @@
     }
 
     .review-card-list {
-        flex-wrap: wrap;
-        gap: 26px;
-        max-width: 100%;
+        /* flex-wrap: wrap;
+        gap: 26px; */
+
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* gap: 32px; */
+        justify-content: space-between;
+        
+        
     }
 
     .review-card-item {
         border-radius: 24px;
         padding: 32px 28px;
-        width: 376px;
-        height: 282px;
+        width: 1180px;
         background: #fbfbfb;
         flex-basis: calc((100% - 52px)/3);
+        
 
+    }
+
+    .review-card {
+        
+        
     }
 
 
@@ -174,7 +197,6 @@
         margin-left: 141px;
         margin-right: 141px;
     }
-
 
 }
 
