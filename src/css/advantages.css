@@ -14,6 +14,7 @@ ol {
 .advantages-title {
    visibility: hidden;
 }
+
 /**------/ List block /------*/
 .list-block {
    background: #1b414b;
@@ -32,20 +33,22 @@ ol {
       min-height: 424px;
       margin-top: 150px;
       margin-bottom: 32px;
+      padding: 90px 32px;
    }
 }
 /**------/ Ol list /------*/
+
 .advantages-list {
 }
 @media only screen and (min-width: 768px) {
    .advantages-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 44px 32px;
    }
 }
+
 /**-----/ Item block /------*/
-@media only screen and (min-width: 768px) {
-   .advantages-item-block {
-   }
-}
 
 .number {
    font-family: "Inter", sans-serif;
@@ -67,7 +70,7 @@ ol {
    margin: 18px 0;
 }
 
-.advantages-item {
+.advantages-text {
    font-family: "Inter", sans-serif;
    font-weight: 400;
    font-size: 12px;
@@ -76,15 +79,25 @@ ol {
    color: #fbfbfb;
    opacity: 0.8;
 }
-@media only screen and (max-width: 767.95px) {
-   .advantages-item-block:not(:last-child) {
+@media only screen and (min-width: 768px) {
+   .advantages-text {
+      font-size: 13px;
+      line-height: 1.15;
+   }
+}
+
+.advantages-item {
+}
+@media only screen and (max-width: 768px) {
+   .advantages-item:not(:last-child) {
       margin-bottom: 40px;
    }
 }
+
 @media only screen and (min-width: 768px) {
    .advantages-item {
-      font-size: 13px;
-      line-height: 1.15;
+      min-width: 304px;
+      width: calc((100% - 32px) / 2);
    }
 }
 
