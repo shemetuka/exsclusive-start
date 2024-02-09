@@ -1,186 +1,197 @@
-
 .reviews {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .reviews-title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.0;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    margin-bottom: 25px;
-
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 25px;
 }
 
 .reviews-item {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    opacity: 0.4;
-    margin-bottom: 40px;
-
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+  margin-bottom: 40px;
 }
 
 .review-card-list {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .review-card-item {
-    border-radius: 24px;
-    padding: 32px 8px;
-    width: 335px;
-    height: 282px;
-    background: #fbfbfb;
-
+  border-radius: 24px;
+  padding: 32px 8px;
+  background: #fbfbfb;
+  max-width: 335px;
 }
 
 .foto-list {
-    display: flex;
-        align-items: center;
-        justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .victoria-card,
 .ihor-card {
-    display: none;
+  display: none;
 }
 
 .client-foto {
-    border-radius: 72px;
-    width: 56px;
-    height: 56px;
-    
+  border-radius: 72px;
+  width: 56px;
+  height: 56px;
 }
 
 .name-client {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 110%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #040306;
-    margin-top: 24px;
-    padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-top: 24px;
+  padding-bottom: 8px;
 }
+/* .reviews-team {
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+} */
 
 .review-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: rgba(4, 3, 6, 0.4);
-
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .reviews {
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
+  .reviews {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
 
-    .reviews-title {
-        font-size: 48px;
-    }
+  .reviews-title {
+    font-size: 48px;
+  }
 
-    .reviews-item {
-        font-size: 14px;
-        line-height: 1.29;
-        margin-bottom: 75px;
-        margin-left: 66px;
-        margin-right: 66px;
-    }
+  .reviews-item {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 75px;
+    margin-left: 66px;
+    margin-right: 66px;
+  }
 
-    .victoria-card {
-        display: block;
-    }
+  .victoria-card {
+    display: block;
+  }
 
-    .review-card-list {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 26px;
-        justify-content: center;
-        text-align: center;
-    }
+  .review-card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+    justify-content: center;
+    text-align: center;
+  }
 
-
+  .review-card-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
 }
 
-@media screen and (min-width:1280px) {
-    .container {
-        width: 1280px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
-    .reviews-title {
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 1.0;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: #fbfbfb;
-        margin-bottom: 25px;
-        max-width: 854px;
-    }
+  .reviews-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-bottom: 25px;
+    max-width: 854px;
+  }
 
-    .ihor-card {
-        display: block;
-    }
+  .ihor-card {
+    display: block;
+  }
 
-    .review-card-list {
-        flex-wrap: wrap;
-        gap: 26px;
-        max-width: 100%;
-    }
+  .review-card-list {
+    /* flex-wrap: wrap; */
+    gap: 26px;
 
-    .review-card-item {
-        border-radius: 24px;
-        padding: 32px 28px;
-        width: 376px;
-        height: 282px;
-        background: #fbfbfb;
-        flex-basis: calc((100% - 52px)/3);
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 32px; */
+    /* justify-content: space-between; */
+  }
 
-    }
+  .review-card-item {
+    border-radius: 24px;
+    padding: 32px 28px;
+    width: 1180px;
+    background: #fbfbfb;
+    flex-basis: calc((100% - 52px) / 3);
+  }
 
+  .review-card {
+  }
 
-    .reviews-team {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        padding-right: 163px;
-        padding-left: 163px;
-    }
+  .reviews-team {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding-right: 163px;
+    padding-left: 163px;
+  }
 
-    .reviews-item {
-        margin-bottom: 75px;
-        margin-left: 141px;
-        margin-right: 141px;
-    }
-
-
+  .reviews-item {
+    margin-bottom: 75px;
+    margin-left: 141px;
+    margin-right: 141px;
+  }
 }
 
-@media screen and (min-width:1440px) {
-    .container {
-        width: 1440px;
-    }
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
 
+  .review-card-list {
+    /* flex-wrap: wrap; */
+    /* gap: 26px; */
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 32px;
+    /* justify-content: space-between; */
+  }
 }
