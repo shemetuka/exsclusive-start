@@ -3,41 +3,45 @@ ol {
    margin: 0;
    padding: 0;
 }
-.hiden {
-   display: none;
-}
 .advantages {
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
-@media only screen and (min-width: 1280px) {
-   .conainer {
-      display: inline-block;
+@media only screen and (min-width: 768px) {
+   .advantages {
+      padding-top: 75px;
+      padding-bottom: 75px;
    }
 }
 
 /**-----/ Title /------*/
 .advantages-title {
-   visibility: hidden;
+   display: none;
 }
 
 /**------/ List block /------*/
 .list-block {
    background: #1b414b;
    border-radius: 24px;
-   width: 335px;
+   min-width: 280px;
    min-height: 642px;
-   margin-top: 80px;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 20px;
    padding: 80px 20px;
+}
+@media only screen and (min-width: 280px) and (max-width: 767.98px) {
+   .list-block {
+      margin-bottom: 20px;
+   }
 }
 @media only screen and (min-width: 768px) {
    .list-block {
       width: 704px;
       min-height: 424px;
-      margin-top: 150px;
-      margin-bottom: 32px;
       padding: 90px 32px;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+   .list-block {
+      margin-bottom: 32px;
    }
 }
 @media only screen and (min-width: 1280px) {
@@ -57,61 +61,43 @@ ol {
 /**------/ Ol list /------*/
 
 .advantages-list {
+   display: flex;
+   gap: 40px;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   counter-reset: counter;
+}
+@media only screen and (max-width: 767.98px) {
+   .advantages-list {
+      flex-direction: column;
+   }
 }
 @media only screen and (min-width: 768px) {
    .advantages-list {
-      display: flex;
       flex-wrap: wrap;
       gap: 44px 32px;
    }
 }
-
-/**-----/ Item block /------*/
-
-.number {
-   font-family: "Inter", sans-serif;
+.advantages-item {
+   counter-increment: counter;
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.02em;
+}
+.advantages-item::before {
+   content: counter(counter, decimal-leading-zero);
+   display: block;
    font-weight: 500;
    font-size: 28px;
    line-height: 1;
-   letter-spacing: -0.05em;
-   color: #fbfbfb;
+   letter-spacing: 0.05em;
 }
 @media only screen and (min-width: 768px) {
-   .number {
+   .advantages-item::before {
       font-size: 32px;
    }
 }
-.rectangle {
-   height: 2px;
-   background: rgba(251, 251, 251, 0.1);
-   border-radius: 18px;
-   margin: 18px 0;
-}
-
-.advantages-text {
-   font-family: "Inter", sans-serif;
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 1.16667;
-   letter-spacing: -0.02em;
-   color: #fbfbfb;
-   opacity: 0.8;
-}
-@media only screen and (min-width: 768px) {
-   .advantages-text {
-      font-size: 13px;
-      line-height: 1.15;
-   }
-}
-
-.advantages-item {
-}
-@media only screen and (max-width: 768px) {
-   .advantages-item:not(:last-child) {
-      margin-bottom: 40px;
-   }
-}
-
 @media only screen and (min-width: 768px) {
    .advantages-item {
       min-width: 304px;
@@ -129,26 +115,42 @@ ol {
    }
 }
 
+/**-----/ Item block /------*/
+
+.advantages-item-text {
+   display: block;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.16667;
+   letter-spacing: 0.02em;
+}
+.advantages-item-text::before {
+   content: "";
+   display: block;
+   border-radius: 18px;
+   height: 2px;
+   background: rgba(251, 251, 251, 0.1);
+   margin-top: 18px;
+   margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+   .advantages-item-text {
+      font-size: 13px;
+      line-height: 1.15;
+   }
+}
+
 /**-----/ Images /------*/
 .advantages-img {
    border-radius: 24px;
-   min-width: 335px;
+   min-width: 280px;
    height: 424px;
-   margin-top: 0;
-   margin-right: auto;
-   margin-left: auto;
-   margin-bottom: 80px;
-}
-@media only screen and (min-width: 768px) {
-   .advantages-img {
-      margin-bottom: 150px;
-   }
 }
 
 @media only screen and (min-width: 1280px) {
    .advantages-img {
       width: 432px;
-      margin: 150px 0 0 0;
    }
 }
 @media only screen and (min-width: 1440px) {
