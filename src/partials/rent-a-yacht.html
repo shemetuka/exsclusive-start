@@ -1,89 +1,91 @@
 <section class="rent" id="rent-yaht">
   <div class="container">
-    <div class="form-container">
-      <form class="rent-form">
-        <p class="rent-form-title">Rent a yacht now</p>
-        <div class="rent-field">
-          <label class="rent-form-label" for="user-name"></label>
-          <input
-            type="text"
-            name="user-name"
-            class="rent-form-input"
-            id="user-name"
-            placeholder="Full name"
+    <div class="position-container">
+      <div class="form-container">
+        <form class="rent-form">
+          <p class="rent-form-title">Rent a yacht now</p>
+          <div class="rent-field">
+            <label class="rent-form-label" for="user-name"></label>
+            <input
+              type="text"
+              name="user-name"
+              class="rent-form-input"
+              id="user-name"
+              placeholder="Full name"
+            />
+          </div>
+          <div class="rent-field">
+            <label class="rent-form-label" for="user-email"></label>
+            <input
+              type="email"
+              name="user-email"
+              class="rent-form-input"
+              id="user-email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="rent-field">
+            <label class="rent-form-label" for="user-tel"></label>
+            <input
+              type="tel"
+              name="user-tel"
+              class="rent-form-input"
+              id="user-tel"
+              placeholder="Phone number"
+            />
+          </div>
+          <div class="rent-field-text">
+            <label class="rent-form-label" for="user-comment"></label>
+            <textarea
+              class="rent-form-textarea"
+              name="user-comment"
+              class="rent-form-text"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="rent-form-btn">Send</button>
+        </form>
+      </div>
+      <div class="rent-photo-div">
+        <picture class="rent-picture">
+          <source
+            srcset="
+              ./img/images-rent/rent-1x-desk-1440.jpg 1x,
+              ./img/images-rent/rent-2x-desk1440.jpg  2x
+            "
+            media="(min-width: 1440px)"
           />
-        </div>
-        <div class="rent-field">
-          <label class="rent-form-label" for="user-email"></label>
-          <input
-            type="email"
-            name="user-email"
-            class="rent-form-input"
-            id="user-email"
-            placeholder="Email"
+          <source
+            srcset="
+              ./img/images-rent/rent-1x-desk1280.jpg 1x,
+              ./img/images-rent/rent-2x-desk1280.jpg 2x
+            "
+            media="(min-width: 1280px)"
           />
-        </div>
-        <div class="rent-field">
-          <label class="rent-form-label" for="user-tel"></label>
-          <input
-            type="tel"
-            name="user-tel"
-            class="rent-form-input"
-            id="user-tel"
-            placeholder="Phone number"
+          <source
+            srcset="
+              ./img/images-rent/rent-1x-tab.jpg 1x,
+              ./img/images-rent/rent-2x-tab.jpg 2x
+            "
+            media="(min-width: 768px)"
           />
-        </div>
-        <div>
-          <label class="rent-form-label" for="user-comment"></label>
-          <textarea
-            class="rent-form-textarea"
-            name="user-comment"
-            class="rent-form-text"
-            id="user-comment"
-            placeholder="Comment"
-          ></textarea>
-        </div>
-        <button type="submit" class="rent-form-btn">Send</button>
-      </form>
-    </div>
-    <div class="rent-photo-div">
-      <picture>
-        <source
-          srcset="
-            ./images-rent/rent-1x-desk-1440.jpg 1x,
-            ./images-rent/rent-2x-desk1440.jpg  2x
-          "
-          media="(min-width: 1440px)"
-        />
-        <source
-          srcset="
-            ./images-rent/rent-1x-desk1280.jpg 1x,
-            ./images-rent/rent-2x-desk1280.jpg 2x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
-            ./images-rent/rent-1x-tab.jpg 1x,
-            ./images-rent/rent-2x-tab.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./images-rent/rent-1x-mob.jpg 1x,
-            ./images-rent/rent-2x-mob.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img
-          src="./images-rent/rent-1x-mob.jpg"
-          alt="Yaht"
-          width="335"
-          height="412"
-          class="rent-img"
-        />
-      </picture>
+          <source
+            srcset="
+              ./img/images-rent/rent-1x-mob.jpg 1x,
+              ./img/images-rent/rent-2x-mob.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/images-rent/rent-1x-mob.jpg"
+            alt="Yaht"
+            width="335"
+            height="412"
+            class="rent-img"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>

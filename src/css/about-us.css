@@ -1,6 +1,6 @@
 
 .about-us-container {
-    width: 335px;
+    max-width: 320px;
     height: 675px;
     background: #fbfbfb;
     border-radius: 24px;
@@ -11,9 +11,7 @@
 
 .about-us {
     margin-bottom: 180px;
-}
-
-.about-us-items {
+    margin-top: -60px;
 }
 
 .first-item {
@@ -63,8 +61,8 @@ margin-bottom: 40px;
 
 @media screen and (min-width:375px) {
     
-    .about-us {
-
+    .about-us-container{
+        max-width: 335px;
     }
 }
 
@@ -72,15 +70,16 @@ margin-bottom: 40px;
     
 
 .about-us {
-    width: 655px;
+    /* width: 655px; */
     height: 675px;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin: auto;
     margin-bottom: 426px;
     
 }
 
 .about-us-container {
+    max-width: 704px;
+    margin-top: -60px;
 }
 
 .about-title {
@@ -112,21 +111,26 @@ margin-bottom: 40px;
 @media screen and (min-width: 1280px) {
 
     .about-us {
-        width: 1180px;
+        /* width: 1180px; */
         height: 675px;
-        margin-bottom: 305px;
+        margin:  0 auto;
+        margin-bottom: 300px;
 }
 
 .about-us-container {
-    /* display: flex; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    max-width: 1180px;
+    margin-top: -20px;
+    margin-bottom: 300px;
+}
+
+.about-us-item {
+    gap: 189px;
 }
 
 
 .about-title {
     margin-bottom: 166px;
+    width: 570px;
 }
 
 .about-list {
@@ -134,8 +138,10 @@ margin-bottom: 40px;
 }
 
 .first-item {
+    width: 354px;
 } 
 .second-item {
+     width: 354px;
 }
 
 .about-image {
@@ -145,7 +151,7 @@ margin-bottom: 40px;
     height: 470px;
 }
 
-.about-div {
+.about-us-item {
     display: flex;
     justify-content: space-between;
 }
@@ -155,23 +161,28 @@ margin-bottom: 40px;
 @media screen and (min-width: 1440px) {
 
      .about-us {
-        width: 1340px;
+        /* width: 1340px; */
         height: 675px;
-        margin-bottom: 175px;
 }
 
 .about-us-container{
- 
+  max-width: 1180px;
 }
 
 
 .about-title {
     margin-bottom: 143px;
+    width: 537px;
 }
 
 
 .first-item {
+    width: 404px;
 
+}
+
+.second-item {
+    width: 404px;
 }
 
 .about-image {
