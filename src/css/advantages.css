@@ -8,8 +8,12 @@ ol {
 }
 .advantages {
 }
-.conainer {
+@media only screen and (min-width: 1280px) {
+   .conainer {
+      display: inline-block;
+   }
 }
+
 /**-----/ Title /------*/
 .advantages-title {
    visibility: hidden;
@@ -36,6 +40,20 @@ ol {
       padding: 90px 32px;
    }
 }
+@media only screen and (min-width: 1280px) {
+   .list-block {
+      float: left;
+      width: 716px;
+      padding: 90px 50px;
+      margin-right: 32px;
+   }
+}
+@media only screen and (min-width: 1440px) {
+   .list-block {
+      width: 768px;
+   }
+}
+
 /**------/ Ol list /------*/
 
 .advantages-list {
@@ -100,6 +118,16 @@ ol {
       width: calc((100% - 32px) / 2);
    }
 }
+@media only screen and (min-width: 1280px) {
+   .advantages-item {
+      min-width: 292px;
+   }
+}
+@media only screen and (min-width: 1440px) {
+   .advantages-item {
+      min-width: 318px;
+   }
+}
 
 /**-----/ Images /------*/
 .advantages-img {
@@ -114,5 +142,17 @@ ol {
 @media only screen and (min-width: 768px) {
    .advantages-img {
       margin-bottom: 150px;
+   }
+}
+
+@media only screen and (min-width: 1280px) {
+   .advantages-img {
+      width: 432px;
+      margin: 150px 0 0 0;
+   }
+}
+@media only screen and (min-width: 1440px) {
+   .advantages-img {
+      width: 540px;
    }
 }
