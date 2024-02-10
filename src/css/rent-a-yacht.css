@@ -184,15 +184,15 @@
     padding-right: 50px;
   }
 
-  .container {
+  .position-container {
     position: relative;
   }
 
   .rent-picture {
     position: absolute;
     top: 0;
-    left: 50px;
-    right: 0;
+    left: 0;
+    right: 50px;
   }
 
   .rent-img {

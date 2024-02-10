@@ -17,6 +17,13 @@
   background-color: #fbfbfb;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 375px) {
+  .header-container {
+    width: 100%;
+  }
+}
+
 .header-logo {
   font-size: 14px;
   font-weight: 500;
@@ -53,6 +60,7 @@
 @media screen and (min-width: 768px) {
   .header-container {
     max-width: 704px;
+    width: 100%;
     height: 48px;
     top: 32px;
     left: 32px;
@@ -131,6 +139,7 @@
 @media screen and (min-width: 1280px) {
   .header-container {
     max-width: 1080px;
+    width: 100%;
     left: 100px;
     right: 100px;
     padding-left: 30px;
@@ -148,29 +157,6 @@
   }
   .header-container {
     max-width: 1240px;
-  }
-}
-/* desctop 1280 */
-
-@media screen and (min-width: 1280px) {
-  .header-container {
-    max-width: 1080px;
-    left: 100px;
-    right: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .header-logo {
-    margin-right: 296px;
-  }
-}
-/* desctop 1440 */
-
-@media screen and (min-width: 1440px) {
-  .header-logo {
-    margin-right: 375px;
-  }
-  .header-container {
-    max-width: 1240px;
+    width: 100%;
   }
 }
