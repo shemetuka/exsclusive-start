@@ -134,22 +134,22 @@
 .our-yachts-item-info {
 }
 .button-yachts-rental {
-  display: block;
+  display: flex;
   margin: 0 auto;
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
   background-color: transparent;
-  padding: 16px 40px;
   width: 179px;
   height: 52px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 18px;
+  justify-content: center;
+  align-items: center;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   text-align: center;
-  /* text-wrap: nowrap; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
