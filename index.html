@@ -390,7 +390,7 @@
           <label class="rent-fieldrent-form-label" for="user-name"></label>
           <input
             required
-            pattern=""
+            pattern="[a-z]{4,8}"
             type="text"
             name="user-name"
             class="rent-form-input"
@@ -401,7 +401,7 @@
           <input
             type="email"
             required
-            pattern=""
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             name="user-email"
             class="rent-form-input"
             id="user-email"
@@ -411,7 +411,6 @@
           <input
             type="tel"
             required
-            pattern=""
             name="user-tel"
             class="rent-form-input"
             id="user-tel"
