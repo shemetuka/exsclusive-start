@@ -57,7 +57,12 @@
 }
 
 .our-yachts-container-icon {
-  display: flex;
+  content: '';
+  width: 272px;
+  height: 2px;
+  background-color: #040306;
+  opacity: 0.1;
+  margin: 0 auto;
 }
 .our-yachts-icon {
   stroke-width: 1px;
@@ -182,6 +187,7 @@
   .our-yachts-item {
     width: 336px;
   }
+
   .yachts-large {
     display: block;
   }
@@ -233,15 +239,22 @@
   .our-yachts-icon {
     width: 313px;
   }
+  .our-yachts-container-icon {
+    width: 313px;
+  }
+
   .our-yachts-description-name {
   }
   .our-yachts-description-value {
   }
   .name-yachts-name {
   }
-  /*  .name-yachts-name span {
-    display: block;
-  } */
+  .name-yachts-name span {
+    display: inline;
+  }
+  .name-yachts-name:hover {
+  }
+
   .name-yachts-luxury {
   }
   .button-yachts-rental {
