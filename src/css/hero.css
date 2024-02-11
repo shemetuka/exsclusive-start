@@ -20,12 +20,13 @@
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(
-        rgba(17, 19, 31, 0.8),
-        rgba(17, 19, 31, 0.31),
-        rgba(17, 19, 31, 0)
-      ),
-      url(/img/hero/hero-mobile/hero-mob-2x.jpg),
-      lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      )
+      url(/img/hero/hero-mobile/hero-mob-2x.jpg);
+    background-repeat: no-repeat;
   }
 }
 
