@@ -189,6 +189,7 @@
   }
 
   .rent-picture {
+    /* width: 700px; */
     position: absolute;
     top: 0;
     left: 0;
@@ -208,12 +209,22 @@
   .rent-form-btn {
     margin-bottom: 0;
   }
+  .rent-field-text {
+    height: 166px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     width: 1440px;
   }
+  .container .form-container {
+    margin-left: 818px;
+  }
+  /* 
+  .rent-picture {
+    width: 900px;
+  } */
 
   .rent-img {
     width: 768px;
