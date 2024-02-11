@@ -15,5 +15,11 @@
 <symbol id="icon-vector" viewBox="0 0 5008 32">
 <path stroke-width="16" d="M0 16h5008"/>
 </symbol>
+<symbol id="icon-vector" viewBox="0 0 5008 32">
+<path  d="M0 16h5008"/>
+</symbol>
+<symbol id="icon-Vector" viewBox="0 0 32 32">
+<path fill="#055545" style="fill: var(--color1, #055545)" d="M32 3.72l-3.72-3.72-12.28 12.28-12.28-12.28-3.72 3.72 12.28 12.28-12.28 12.28 3.72 3.72 12.28-12.28 12.28 12.28 3.72-3.72-12.28-12.28 12.28-12.28z"></path>
+</symbol>
 </defs>
 </svg>
