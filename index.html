@@ -21,7 +21,7 @@
 
     
     <script type="module" crossorigin src="/exsclusive-start/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/exsclusive-start/assets/index-e5481f30.css">
+    <link rel="stylesheet" href="/exsclusive-start/assets/index-285cf505.css">
   </head>
   <body>
     <header>
@@ -35,7 +35,7 @@
             <a href="#about-us" class="nav-list-link">About</a>
           </li>
           <li class="nav-list-item">
-            <a href="#our-yahts" class="nav-list-link">Yachts</a>
+            <a href="#our-yachts" class="nav-list-link">Yachts</a>
           </li>
           <li class="nav-list-item">
             <a href="#reviews" class="nav-list-link">Reviews</a>
@@ -46,37 +46,40 @@
         <li class="social-media-item">
           <a
             href="https://www.instagram.com/goitclub/"
+            target="_blank"
             class="social-media-icon-list"
           >
             <svg class="icon icon-instagram" width="20" height="20">
-              <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-instagram"></use>
+              <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="social-media-item">
           <a
             href="https://www.youtube.com/c/GoIT"
+            target="_blank"
             class="social-media-icon-list"
           >
             <svg class="icon icon-youtube" width="20" height="20">
-              <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-youtube"></use>
+              <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
         <li class="social-media-item">
           <a
             href="https://www.facebook.com/goITclub/"
+            target="_blank"
             class="social-media-icon-list"
           >
             <svg class="icon icon-facebook" width="20" height="20">
-              <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-facebook"></use>
+              <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
       </ul>
-      <button class="burger-btn" type="button">
+      <button class="burger-btn js-open-menu" type="button">
         <svg class="icon icon-burger" width="28" height="28">
-          <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-burger"></use>
+          <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-burger"></use>
         </svg>
       </button>
     </div>
@@ -100,37 +103,50 @@
 </section>
 
       <section class="about-us" id="about-us">
-    <div class="container about-us-container">
-        <div class="about-us-item">
-            <h2 class="about-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
-            <ul class="about-list">
-                <li class="first-item">
-                    From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect
-                    blend
-                    of luxury and
-                    functionality.
-                </li>
-                <li class="second-item">
-                    Take a look at our selection below and choose the yacht that matches your needs and preferences.No
-                    matter which yacht
-                    you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and
-                    get
-                    ready for an
-                    unforgettable adventure on the high seas.
-                </li>
-            </ul>
-        </div>
-        <picture>
-            <source media=(min-width:1440px)
-                srcset="/exsclusive-start/assets/desk-1440-x1-a7bdf89f.png 1x, /exsclusive-start/assets/desk-1440-x2-192e338a.png 2x">
-            <source media=(min-width:1158px) srcset="/exsclusive-start/assets/desk-1x-c70fc6a9.png 1x, /exsclusive-start/assets/desk-2x-59ff5eee.png 2x">
-            <source media=(min-width:768px) srcset="/exsclusive-start/assets/tab-x1-05b5ae08.png 1x, /exsclusive-start/assets/tab-x2-ff1aea60.png 2x">
-            <!-- <source media=(min-width:320px) srcset="/img/about-us/about-1x.png 1x, /img/about-us/about-2x.png 2x"> -->
-            <img class="about-image" srcset="/exsclusive-start/assets/about-x1-c3d66fda.png 1x, /exsclusive-start/assets/about-x2-ab4a30a0.png 2x"
-                src="/img/about-us/about-1x.jpg" alt="yacht" width="335">
-        </picture>
+  <div class="container about-us-container">
+    <div class="about-us-item">
+      <h2 class="about-title">
+        YachtJet fleet is here to take you on the ultimate adventure
+      </h2>
+      <div class="about-list">
+        <h3 class="first-item">
+          From spacious decks to state-of-the-art technology, our yachts are
+          designed to provide the perfect blend of luxury and functionality.
+        </h3>
+        <p class="second-item">
+          Take a look at our selection below and choose the yacht that matches
+          your needs and preferences.No matter which yacht you choose, our
+          experienced crew will ensure that your journey is smooth and
+          enjoyable. Book now and get ready for an unforgettable adventure on
+          the high seas.
+        </p>
+      </div>
     </div>
+    <picture>
+      <source
+        media="(min-width:1440px)"
+        srcset="/exsclusive-start/assets/desk-1440-x1-a7bdf89f.png 1x, /exsclusive-start/assets/desk-1440-x2-192e338a.png 2x"
+      />
+      <source
+        media="(min-width:1280px)"
+        srcset="/exsclusive-start/assets/desk-1x-c70fc6a9.png 1x, /exsclusive-start/assets/desk-2x-59ff5eee.png 2x"
+      />
+      <source
+        media="(min-width:768px)"
+        srcset="/exsclusive-start/assets/tab-x1-05b5ae08.png 1x, /exsclusive-start/assets/tab-x2-ff1aea60.png 2x"
+      />
+      <!-- <source media=(min-width:320px) srcset="/img/about-us/about-1x.png 1x, /img/about-us/about-2x.png 2x"> -->
+      <img
+        class="about-image"
+        srcset="/exsclusive-start/assets/about-x1-c3d66fda.png 1x, /exsclusive-start/assets/about-x2-ab4a30a0.png 2x"
+        src="/img/about-us/about-1x.jpg"
+        alt="yacht"
+        width="335"
+      />
+    </picture>
+  </div>
 </section>
+
       <section class="our-yachts" id="our-yachts">
   <div class="container our-yachts-container-our">
     <h2 class="our-yachts-title">
@@ -371,46 +387,46 @@
       <div class="form-container">
         <form class="rent-form">
           <p class="rent-form-title">Rent a yacht now</p>
-          <div class="rent-field">
-            <label class="rent-form-label" for="user-name"></label>
-            <input
-              type="text"
-              name="user-name"
-              class="rent-form-input"
-              id="user-name"
-              placeholder="Full name"
-            />
-          </div>
-          <div class="rent-field">
-            <label class="rent-form-label" for="user-email"></label>
-            <input
-              type="email"
-              name="user-email"
-              class="rent-form-input"
-              id="user-email"
-              placeholder="Email"
-            />
-          </div>
-          <div class="rent-field">
-            <label class="rent-form-label" for="user-tel"></label>
-            <input
-              type="tel"
-              name="user-tel"
-              class="rent-form-input"
-              id="user-tel"
-              placeholder="Phone number"
-            />
-          </div>
-          <div class="rent-field-text">
-            <label class="rent-form-label" for="user-comment"></label>
-            <textarea
-              class="rent-form-textarea"
-              name="user-comment"
-              class="rent-form-text"
-              id="user-comment"
-              placeholder="Comment"
-            ></textarea>
-          </div>
+          <label class="rent-fieldrent-form-label" for="user-name"></label>
+          <input
+            required
+            pattern=""
+            type="text"
+            name="user-name"
+            class="rent-form-input"
+            id="user-name"
+            placeholder="Full name"
+          />
+          <label class="rent-field rent-form-label" for="user-email"></label>
+          <input
+            type="email"
+            required
+            pattern=""
+            name="user-email"
+            class="rent-form-input"
+            id="user-email"
+            placeholder="Email"
+          />
+          <label class="rent-field rent-form-label" for="user-tel"></label>
+          <input
+            type="tel"
+            required
+            pattern=""
+            name="user-tel"
+            class="rent-form-input"
+            id="user-tel"
+            placeholder="Phone number"
+          />
+          <label class="rent-field rent-form-label" for="user-comment"></label>
+          <textarea
+            class="rent-form-textarea"
+            name="user-comment"
+            class="rent-form-text"
+            id="user-comment"
+            required
+            pattern=""
+            placeholder="Comment"
+          ></textarea>
           <button type="submit" class="rent-form-btn">Send</button>
         </form>
       </div>
@@ -532,7 +548,7 @@
               <a href="#about-us" class="footer-nav-link">About</a>
             </li>
             <li class="footer-list-item">
-              <a href="#our-yahts" class="footer-nav-link">Yachts</a>
+              <a href="#our-yachts" class="footer-nav-link">Yachts</a>
             </li>
             <li class="footer-list-item">
               <a href="#reviews" class="footer-nav-link">Reviews</a>
@@ -545,30 +561,33 @@
           <li class="footer-social-item">
             <a
               href="https://www.instagram.com/goitclub/"
+              target="_blank"
               class="social-media-icon-link"
             >
               <svg class="icon soc-icon-instagram" width="19" height="19">
-                <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-instagram"></use>
+                <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
             <a
               href="https://www.youtube.com/c/GoIT"
+              target="_blank"
               class="social-media-icon-link"
             >
               <svg class="icon soc-icon-youtube" width="19" height="19">
-                <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-youtube"></use>
+                <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
             <a
               href="https://www.facebook.com/goITclub/"
+              target="_blank"
               class="social-media-icon-link"
             >
               <svg class="icon soc-icon-facebook" width="19" height="19">
-                <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-facebook"></use>
+                <use href="/exsclusive-start/assets/symbol-defs-b9e3c6f1.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
@@ -589,66 +608,56 @@
 </footer>
 
     </footer>
-    <mob-menu class="mob-menu">
+    <!-- < class="mob-menu js-menu-container">
   <div class="container mob-menu-container">
     <div class="logo-button-mob-menu">
       <a href="./index.html" class="logo-mob-menu">yachtjet</a>
-      <button class="vector-btn" type="button">
+      <button class="vector-btn js-close-menu" type="button">
         <svg class="icon icon-vector" width="16" height="16">
-          <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-vector">x</use>
+          <use href="./img/symbol-defs.svg#icon-Vector-close"></use>
         </svg>
       </button>
     </div>
-  </div>
-  <div>
-    <ul class="nav-list-mob-menu">
-      <li class="nav-item nav-item-mob-menu-about">
-        <a href="#about-us" class="nav-link-mob-menu">About</a>
-      </li>
-      <li class="nav-item nav-item-mob-menu-yachts">
-        <a href="#our-yahts" class="nav-link-mob-menu">Yachts</a>
-      </li>
-      <li class="nav-item nav-item-mob-menu-reviews">
-        <a href="#reviews" class="nav-link-mob-menu">Reviews</a>
-      </li>
-    </ul>
-  </div>
-  <div>
-    <ul class="social-media-list-mob-menu">
-      <li class="social-media-item-mob-menu">
-        <a
-          href="https://www.instagram.com/goitclub/"
-          class="social-media-icon-list-mob-menu"
-        >
-          <svg class="icon icon-instagram" width="20" height="20">
-            <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social-media-item-mob-menu">
-        <a
-          href="https://www.youtube.com/c/GoIT/"
-          class="social-media-icon-list-mob-menu"
-        >
-          <svg class="icon icon-youtube" width="20" height="20">
-            <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-youtube"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social-media-item-mob-menu">
-        <a
-          href="https://www.facebook.com/goITclub/"
-          class="social-media-icon-list-mob-menu"
-        >
-          <svg class="icon icon-facebook" width="20" height="20">
-            <use href="/exsclusive-start/assets/symbol-defs-cad6c0a1.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </div>
-</mob-menu>
-
+  </div>    
+    <div>
+      <ul class="social-media-list-mob-menu">
+        <li class="social-media-item-mob-menu">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="social-media-icon-list-mob-menu"
+          >
+            <svg class="icon mob-icon-instagram" width="20" height="20">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-item-mob-menu">
+          <a
+            href="https://www.youtube.com/c/GoIT/"
+            target="_blank"
+            class="social-media-icon-list-mob-menu"
+          >
+            <svg class="icon mob-icon-youtube" width="20" height="20">
+              <use href="./img/symbol-defs.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-item-mob-menu">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            class="social-media-icon-list-mob-menu"
+          >
+            <svg class="icon mob-icon-facebook" width="20" height="20">
+              <use href="./img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+</div>
+ -->
 
     
   </body>
