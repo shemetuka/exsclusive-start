@@ -4,46 +4,46 @@
       <div class="form-container">
         <form class="rent-form">
           <p class="rent-form-title">Rent a yacht now</p>
-          <div class="rent-field">
-            <label class="rent-form-label" for="user-name"></label>
-            <input
-              type="text"
-              name="user-name"
-              class="rent-form-input"
-              id="user-name"
-              placeholder="Full name"
-            />
-          </div>
-          <div class="rent-field">
-            <label class="rent-form-label" for="user-email"></label>
-            <input
-              type="email"
-              name="user-email"
-              class="rent-form-input"
-              id="user-email"
-              placeholder="Email"
-            />
-          </div>
-          <div class="rent-field">
-            <label class="rent-form-label" for="user-tel"></label>
-            <input
-              type="tel"
-              name="user-tel"
-              class="rent-form-input"
-              id="user-tel"
-              placeholder="Phone number"
-            />
-          </div>
-          <div class="rent-field-text">
-            <label class="rent-form-label" for="user-comment"></label>
-            <textarea
-              class="rent-form-textarea"
-              name="user-comment"
-              class="rent-form-text"
-              id="user-comment"
-              placeholder="Comment"
-            ></textarea>
-          </div>
+          <label class="rent-fieldrent-form-label" for="user-name"></label>
+          <input
+            required
+            pattern=""
+            type="text"
+            name="user-name"
+            class="rent-form-input"
+            id="user-name"
+            placeholder="Full name"
+          />
+          <label class="rent-field rent-form-label" for="user-email"></label>
+          <input
+            type="email"
+            required
+            pattern=""
+            name="user-email"
+            class="rent-form-input"
+            id="user-email"
+            placeholder="Email"
+          />
+          <label class="rent-field rent-form-label" for="user-tel"></label>
+          <input
+            type="tel"
+            required
+            pattern=""
+            name="user-tel"
+            class="rent-form-input"
+            id="user-tel"
+            placeholder="Phone number"
+          />
+          <label class="rent-field rent-form-label" for="user-comment"></label>
+          <textarea
+            class="rent-form-textarea"
+            name="user-comment"
+            class="rent-form-text"
+            id="user-comment"
+            required
+            pattern=""
+            placeholder="Comment"
+          ></textarea>
           <button type="submit" class="rent-form-btn">Send</button>
         </form>
       </div>

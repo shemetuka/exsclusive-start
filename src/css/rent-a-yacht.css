@@ -16,14 +16,11 @@
   width: 100%;
 }
 
-.rent-field {
-  margin-bottom: 18px;
-}
-
 .rent-form-input {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   width: 100%;
+  margin-bottom: 18px;
   height: 42px;
   background-color: transparent;
   outline-color: transparent;
@@ -183,28 +180,33 @@
     padding-left: 50px;
     padding-right: 50px;
   }
-
+  .container .form-container {
+    margin: 0;
+  }
   .position-container {
-    position: relative;
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
 
-  .rent-picture {
-    /* width: 700px; */
+  /* .rent-picture {
+    width: 700px;
     position: absolute;
     top: 0;
     left: 0;
     right: 50px;
-  }
+  } */
 
   .rent-img {
     width: 658px;
     height: 536px;
   }
 
-  .container .form-container {
+  /* .container .form-container {
     margin: 0;
     margin-left: auto;
-  }
+  } */
 
   .rent-form-btn {
     margin-bottom: 0;
@@ -218,13 +220,21 @@
   .container {
     width: 1440px;
   }
-  .container .form-container {
+  /* .container .form-container {
     margin-left: 818px;
-  }
+  } */
   /* 
   .rent-picture {
     width: 900px;
   } */
+
+  .form-container {
+    margin-right: 50px;
+  }
+
+  .container .form-container {
+    margin-right: 50px;
+  }
 
   .rent-img {
     width: 768px;

@@ -7,7 +7,7 @@
 @import url('./rent-a-yacht.css');
 @import url('./reviews.css');
 @import url('./footer.css');
-@import url('./mob-menu.css');
+/* @import url('./mob-menu.css'); */
 
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -40,8 +40,9 @@ body {
   color: #fbfbfb;
 }
 .container {
-  min-width: 320px;
-  padding-left: 20px;
+  /* width: 100%; */
+  /* min-width: 320px;
+  padding-left: 20px; */
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;

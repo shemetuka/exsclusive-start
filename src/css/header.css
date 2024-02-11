@@ -8,20 +8,22 @@
   top: 20px;
   left: 20px;
   right: 20px;
-  z-index: 99999999999;
-  max-width: 335px;
+  z-index: 1000;
+  /* max-width: 335px; */
+  /* min-width: 320px; */
   height: 42px;
   padding: 12px 20px 13px 20px;
   border-radius: 8px;
   border: 1px solid #fbfbfb;
   background-color: #fbfbfb;
   margin: 0 auto;
+  max-width: 320px;
+}
+
+.header-container {
 }
 
 @media screen and (min-width: 375px) {
-  .header-container {
-    width: 100%;
-  }
 }
 
 .header-logo {

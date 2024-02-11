@@ -1,6 +1,6 @@
 .container {
-  width: 100%;
-  min-width: 320px;
+  /* width: 100%;
+  min-width: 320px; */
   padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
@@ -8,7 +8,7 @@
 
 .our-yachts {
 }
-.our-yachts-container-our {
+.our-yachts {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -16,7 +16,8 @@
   margin: 0 auto;
   margin-bottom: 40px;
   font-weight: 500;
-  width: 319px;
+  /* min-width: 319px; */
+  /* max-width: 319px; */
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
@@ -167,12 +168,13 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .our-yachts-container-our {
+  .our-yachts {
     padding-top: 75px;
     padding-bottom: 75px;
   }
   .our-yachts-title {
     margin-bottom: 75px;
+    /* width: 100%; */
     width: 645px;
     font-size: 48px;
   }

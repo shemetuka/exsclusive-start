@@ -65,7 +65,7 @@
   text-align: center;
   color: #040306;
   margin-top: 24px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .review-text {
@@ -160,14 +160,12 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    padding-right: 163px;
-    padding-left: 163px;
+    margin: 0 auto;
   }
 
   .reviews-item {
     margin-bottom: 75px;
-    margin-left: 141px;
-    margin-right: 141px;
+    max-width: 571px;
   }
 }
 
