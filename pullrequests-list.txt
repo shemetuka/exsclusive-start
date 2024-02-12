@@ -4,3 +4,4 @@
 4. https://github.com/shemetuka/exsclusive-start/pull/31
 5. https://github.com/shemetuka/exsclusive-start/pull/33
 6. https://github.com/shemetuka/exsclusive-start/pull/41
+7. https://github.com/shemetuka/exsclusive-start/pull/42
