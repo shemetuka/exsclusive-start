@@ -78,13 +78,14 @@
     font-size: 48px;
     width: 536px;
     padding-top: 50px;
+    margin-bottom: 50px;
     /* margin-bottom: 50px; */
   }
 
   .about-list {
     max-width: 389px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    margin-bottom: 50px;
   }
 
   .first-item {
@@ -119,6 +120,12 @@
     max-width: 1180px;
     margin-top: -20px;
     margin-bottom: 300px;
+  }
+
+  .about-list {
+    max-width: 389px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .about-us-item {
